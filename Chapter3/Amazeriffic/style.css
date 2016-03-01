@@ -1,52 +1,154 @@
-body {
-  background: #f9e933;
+html{
+      height: 100%;    
 }
 
-header, main, footer {
-  min-width: 855px;
+body{
+      min-height: 100%;
+      position: relative;
 }
 
-header .container, main .container, footer .container {
-  max-width: 855px;
-  margin: auto;
+header{
+        background: #808080;
+        height: 70px;
+   
 }
 
-header {
-  background: white;
-  overflow: auto;
+.main_title{
+           display: block;
+           float: left;  
+           font-size: 2em;
+           color:white;
+  
 }
-
-header h1 {
-  float: left;
-  width: 570px;
-}
-
 header nav {
-  float: right;
-  width: 285px;
+             float: right;  
 }
 
-main {
-  background: white;
-  overflow: auto;
+nav ul li{
+    	   display: inline-block;
+		   height: 60px;
+           margin: 5px;
+           text-align: center;
+           list-style-type: none;
+}
+        
+nav ul li a{
+			 padding: 20px;
+			 background: orange;
+			 color: white;
+             text-decoration: none;
+             cursor: none;
+}
+            
+nav ul li a:hover{
+    			   background-color: #ffb424;
+				   box-shadow: 0 1px 1px #666;
+}
+            
+nav ul li a:active{ 
+                    background-color: #ff8f00; 
 }
 
-main .left {
-  float: left;
-  width: 570px;
+ul li a{  
+         box-shadow: 0 1px 1px #999; 
+}
+    
+main{
+      padding-bottom: 190px;
+}
+    
+.subtitle{
+             font-weight: bold;  
 }
 
-main .right {
-  float: right;
-  width: 285px;
+.supertitle{
+             font-weight: bold;  
+}
+
+main .left_main{
+                 width:350px;
+    
+}
+
+main .container_index{
+                 border: 2px solid #808080;
+                 padding: 10px;
+                 height: 400px;
+                 box-shadow: 0 1px 1px #666;
+                 margin-top:10px;
+}
+
+main .left{
+                 text-align: center;
+                 float:left;
+                 /*margin-top:20px;*/              
+}
+
+.ques_ans{
+              border: 3px solid #2f4f4f;
+              padding: 10px;
+              margin:25px;
+}
+
+.image{
+    width: 250px;
+    margin:auto;
+    position: absolute;
+}
+
+main .right{
+             float: right;
+             position: relative;
+}
+
+footer{
+        width: 100%;
+        background: #808080;
+        height: 179px;
+        position: absolute;
+        bottom: 0;
+}
+
+footer .sitemap{
+                float: right;
 }
 
 footer .left {
-  float: left;
-  width: 570px;
+               float: left;
 }
 
-footer .sitemap {
-  float: right;
-  width: 285px;
+main .sign_page{
+                width:300px;
+                margin:auto; 
+}
+
+main .signin{
+              text-align: center;
+              border: 3px solid #2f4f4f;
+              margin-top:10px;
+}
+
+label{
+       display: inline-block;
+       clear: left;
+       width: 250px;
+       text-align:left;    
+}
+
+input{
+       display: inline-block;
+       clear: left;
+       width: 250px;
+       text-align:left;  
+}
+
+.button_align{
+               display:block;
+               text-align: center;
+}
+
+button{
+        height: 30px;
+        background-color: orange; 
+        margin: auto; 
 }
